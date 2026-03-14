@@ -1,9 +1,7 @@
 # arty-stm32-lib
 A lightweight, bare-metal Hardware Abstraction Layer (HAL) for STM32F4 series microcontrollers, written in C without external dependencies.
-Entendido! Como é um projeto de estudo inicial, é importante que o README seja honesto e destaque que o valor principal aqui é o seu processo de aprendizado e a base teórica que você está construindo. Recrutadores valorizam muito quando um estudante demonstra que sabe como as coisas funcionam "por baixo do capô".
 
-Aqui está a adaptação focada em aprendizado:
-🚀 Overview
+--- 
 
 ArtyLib is a personal study project developed to explore the fundamentals of Bare-Metal embedded systems. Instead of relying on pre-built libraries like STM32 CubeHAL, this project focuses on direct communication with the ARM Cortex-M4 hardware through register manipulation.
 
