@@ -1,2 +1,21 @@
 # arty-stm32-lib
 A lightweight, bare-metal Hardware Abstraction Layer (HAL) for STM32F4 series microcontrollers, written in C without external dependencies.
+Entendido! Como é um projeto de estudo inicial, é importante que o README seja honesto e destaque que o valor principal aqui é o seu processo de aprendizado e a base teórica que você está construindo. Recrutadores valorizam muito quando um estudante demonstra que sabe como as coisas funcionam "por baixo do capô".
+
+Aqui está a adaptação focada em aprendizado:
+🚀 Overview
+
+ArtyLib is a personal study project developed to explore the fundamentals of Bare-Metal embedded systems. Instead of relying on pre-built libraries like STM32 CubeHAL, this project focuses on direct communication with the ARM Cortex-M4 hardware through register manipulation.
+
+The goal of this library is to document my learning journey in Computer Engineering, providing a hands-on understanding of memory mapping, peripheral initialization, and hardware-software interfacing.
+🛠️ Key Learning Features
+
+  - Register-Level Access: Implementation of peripheral control by directly writing to memory addresses, based on the STM32F4 Reference Manual.
+
+  - Hardware Fundamentals: Deep dive into the RCC (Reset and Clock Control) to understand how to "wake up" and synchronize internal peripherals.
+
+  - GPIO Management: Learning the difference between registers like MODER, ODR, and BSRR for efficient digital I/O control.
+
+  - Timing & Cycles: Implementing precise software delays by configuring Hardware Timers, moving away from inaccurate "dummy loops".
+
+  - Low-Level Architecture: Hands-on experience with C structures for memory mapping and the use of volatile pointers to handle hardware-changed values.
